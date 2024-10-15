@@ -21,4 +21,102 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: grey;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.up {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.box1 {
+  width: 400px;
+  height: 300px;
+  border: 2px solid white;
+  background-image: linear-gradient(
+    red 100px,
+    blue 100px 200px,
+    darkorange 200px 300px
+  );
+  margin-right: 20px;
+}
+.box2 {
+  width: 400px;
+  height: 300px;
+  border: 2px solid white;
+  background-image: linear-gradient(
+    to right,
+    black 133px,
+    yellow 133px 266px,
+    red 266px 400px
+  );
+  margin-right: 20px;
+}
+.box3 {
+  width: 400px;
+  height: 300px;
+  border: 2px solid white;
+  background-image: linear-gradient(
+    lightblue 100px,
+    white 100px 125px,
+    black 125px 175px,
+    white 175px 200px,
+    lightblue 200px 300px
+  );
+}
+.down {
+  display: flex;
+  justify-content: center;
+}
+.box4 {
+  width: 400px;
+  height: 300px;
+  border: 2px solid white;
+  background-image: linear-gradient(
+      to right,
+      green 150px,
+      transparent 150px 300px
+    ),
+    linear-gradient(yellow 150px, red 150px 300px);
+  margin-right: 20px;
+}
+.box5 {
+  width: 400px;
+  height: 300px;
+  border: 2px solid white;
+  background-image: linear-gradient(
+    135deg,
+    green 210px,
+    yellow 210px 280px,
+    red 280px 300px
+  );
+  margin-right: 20px;
+}
+.box6 {
+  width: 400px;
+  height: 300px;
+  border: 2px solid white;
+  background-image: linear-gradient(
+      105deg,
+      darkblue 80px,
+      transparent 80px 300px
+    ),
+    linear-gradient(130deg, yellow 80px 200px, transparent 200px 240px),
+    linear-gradient(155deg, red 240px 280px, transparent 280px 300px),
+    linear-gradient(165deg, white 280px 298px, transparent 298px 300px),
+    linear-gradient(170deg, green 298px 300px);
 }
