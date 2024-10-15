@@ -120,3 +120,54 @@ body {
     linear-gradient(165deg, white 280px 298px, transparent 298px 300px),
     linear-gradient(170deg, green 298px 300px);
 }
+.flags {
+  display: flex;
+  justify-content: center;
+}
+.box7 {
+  width: 200px;
+  height: 150px;
+  border: 1px solid white;
+  background-image: radial-gradient(circle, red 40px, white 40px 150px);
+  margin-right: 20px;
+}
+.box8 {
+  width: 200px;
+  height: 150px;
+  border: 1px solid white;
+  background-image: radial-gradient(
+    circle at 60px,
+    yellow 40px,
+    lightblue 40px 150px
+  );
+  margin-right: 20px;
+}
+.box9 {
+  width: 200px;
+  height: 150px;
+  border: 1px solid white;
+  background-image: radial-gradient(circle, white 30px, transparent 30px 150px),
+    linear-gradient(red 40px, darkblue 40px 110px, red 110px 150px);
+  margin-right: 20px;
+}
+.arcoiris {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 600px;
+  height: 300px;
+  border: 1px solid white;
+  background-color: rgb(65, 65, 65);
+  background-image: radial-gradient(
+    circle at bottom,
+    transparent 50px,
+    red 50px 80px,
+    orange 80px 110px,
+    yellow 110px 140px,
+    green 140px 170px,
+    blue 170px 200px,
+    purple 200px 230px,
+    pink 230px 260px,
+    transparent 260px
+  );
+}
